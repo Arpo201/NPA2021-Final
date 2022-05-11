@@ -7,4 +7,4 @@ RUN pip install -r requirement.txt
 
 COPY 62070174-bot.py .
 
-ENTRYPOINT [ "python", "hello-1.js" ]
+ENTRYPOINT [ "python", "62070174-bot.py" ]
